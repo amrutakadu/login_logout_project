@@ -69,3 +69,6 @@ def logout_user(request):
     logout(request)                     # deletes data from django_session table    --  also deletes cookies in browser i.e. in client -- 
                                         # Cookies are at client side i.e. at browser and Session is at server side
     return redirect("login")
+
+def func():
+    print("Function added for git testing...")
