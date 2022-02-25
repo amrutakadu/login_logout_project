@@ -72,3 +72,6 @@ def logout_user(request):
 
 def func():
     print("Function added for git testing...")
+
+def func_f_push():
+    print("Doing Git Practice")
