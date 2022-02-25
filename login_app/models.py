@@ -4,3 +4,4 @@ from django.db import models
 
 class Credentials(models.Model):
     uname = models.CharField(max_length = 100, null = True)
+    pswd = models.CharField(max_length = 100, null = True)
